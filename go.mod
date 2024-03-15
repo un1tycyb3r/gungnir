@@ -1,4 +1,4 @@
-module github.com/un1tycyb3r/gungnir
+module github.com/un1tycyb3r/fixed-gungnir
 
 go 1.21
 
