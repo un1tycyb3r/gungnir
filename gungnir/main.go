@@ -228,6 +228,7 @@ func scanLog(ctx context.Context, logURI string, wg *sync.WaitGroup, httpClient 
 			if err != nil {
 				log.Printf("Failed to get STH for log %s after scan: %v", logURI, err)
 				// Decide on action based on error - break, continue, or retry getting STH.
+				break
 			}
 
 			if int64(sth.TreeSize) > endIndex+1 {
