@@ -1,4 +1,4 @@
-module github.com/g0ldencybersec/gungnir
+module github.com/un1tycyb3r/gungnir
 
 go 1.21
 
